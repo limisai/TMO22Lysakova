@@ -1,8 +1,3 @@
-
-#candies_per_bag(candies, bags). 
-#Число конфет разделите на число пакетов. 
-#Пример: candies_per_bag(63, 7) → 9.0.
-#Слова для сортировки: ["мир", "страна", "континент"]
 def candies_per_bag(candies, bags):
     if bags == 0:
         return "На ноль делить нельзя"
