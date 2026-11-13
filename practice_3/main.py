@@ -1,4 +1,4 @@
-g = (x * 5 for x in [1, 2, 3])
+g = (x*5 for x in [1, 2, 3])
 print(list(g))
 
 def announce(func):
